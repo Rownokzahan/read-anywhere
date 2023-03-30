@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaBookmark, FaRegBookmark } from 'react-icons/fa';
+import { FaRegBookmark } from 'react-icons/fa';
 const Blog = (props) => {
     const { id, images, author_name, blog_title, read_time, publish_date } = props.blog;
     return (
@@ -15,8 +15,7 @@ const Blog = (props) => {
                 </div>
                 <div className='text-gray flex gap-3'>
                     <p>{read_time} minutes read</p>
-                    <button onClick={() => console.log(id)}><FaRegBookmark /></button>
-                    <button onClick={() => console.log(id)}><FaBookmark /></button>
+                    <button onClick={() => props.handleBookMarks(id)}><FaRegBookmark /></button>
                 </div>
             </div>
             <h2 className='text-2xl font-bold my-4'>{blog_title}</h2>

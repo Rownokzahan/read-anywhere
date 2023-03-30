@@ -6,6 +6,7 @@ import Sidebar from './Sidebar/Sidebar';
 const App = () => {
   const [blogs, setBlogs] = useState([]);
   const [readTime, setReadTime] = useState(0);
+  const [bookMarks, setBookMarks] = useState([]);
 
   useEffect(() => {
     fetch('data.json')
@@ -17,15 +18,32 @@ const App = () => {
     setReadTime(readTime + time);
   }
 
+  const handleBookMarks = blogId => {
+    const blog = blogs.find(blog => blog.id === blogId);
+
+    const alreadyExist = bookMarks.find(blog => blog.id === blogId)
+    if (!alreadyExist) {
+      setBookMarks([...bookMarks, blog])
+    }
+    else {
+      alert("You Have Already Bookmarked This Blog");
+    }
+  }
+
   return (
     <div className='max-w-[1440px] mx-auto'>
       <Header></Header>
 
       <div className='grid grid-cols-1 md:grid-cols-3 gap-6'>
         <div className='col-span-2'>
-          {blogs.map(blog => <Blog blog={blog} handleReadTime={handleReadTime} key={blog.id}></Blog>)}
+          {blogs.map(blog => <Blog
+            blog={blog}
+            handleReadTime={handleReadTime}
+            handleBookMarks={handleBookMarks}
+            key={blog.id}
+          ></Blog>)}
         </div>
-        <Sidebar readTime={readTime}></Sidebar>
+        <Sidebar bookMarks={bookMarks} readTime={readTime}></Sidebar>
       </div>
     </div>
   );
