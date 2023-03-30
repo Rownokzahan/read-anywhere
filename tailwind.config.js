@@ -5,11 +5,13 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    colors: {
-      'purple': '#6047EC',
-      'gray-dark': '#273444',
-      'gray': '#11111199',
-      'gray-light': '#f3f3f3',
+    extend: {
+      colors: {
+        'purple': '#6047EC',
+        'light-purple': '#6047ec1a',
+        'gray': '#11111199',
+        'gray-light': '#1111110D',
+      }
     },
   },
   plugins: [],
