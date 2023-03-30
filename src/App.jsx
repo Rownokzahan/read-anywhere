@@ -34,7 +34,7 @@ const App = () => {
     <div className='max-w-[1440px] mx-auto'>
       <Header></Header>
 
-      <div className='grid grid-cols-1 md:grid-cols-3 gap-6'>
+      <div className='grid grid-cols-1 md:grid-cols-3 gap-6 relative'>
         <div className='col-span-2'>
           {blogs.map(blog => <Blog
             blog={blog}
@@ -43,7 +43,13 @@ const App = () => {
             key={blog.id}
           ></Blog>)}
         </div>
-        <Sidebar bookMarks={bookMarks} readTime={readTime}></Sidebar>
+
+        <div className='sticky top-0 right-0 h-max'>
+          <Sidebar
+            bookMarks={bookMarks}
+            readTime={readTime}
+          ></Sidebar>
+        </div>
       </div>
     </div>
   );
