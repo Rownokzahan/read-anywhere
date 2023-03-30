@@ -18,7 +18,7 @@ const App = () => {
 
       <div className='grid grid-cols-1 md:grid-cols-3 gap-6'>
         <div className='col-span-2'>
-          
+          {blogs.map(blog=><Blog blog={blog} key={blog.id}></Blog>)}
         </div>
         <Sidebar></Sidebar>
       </div>
