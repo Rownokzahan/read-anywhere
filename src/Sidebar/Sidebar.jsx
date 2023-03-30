@@ -1,10 +1,11 @@
 import React from 'react';
 
-const Sidebar = () => {
+const Sidebar = (props) => {
+    const { readTime } = props;
     return (
         <div>
             <div className='py-4 rounded-md text-purple bg-light-purple border border-purple mb-6'>
-                <h3 className='text-primary text-center text-2xl font-semibold'>Spent time on read : {177}min</h3>
+                <h3 className='text-primary text-center text-2xl font-semibold'>Spent time on read : {readTime} min</h3>
             </div>
 
             <div className='p-8 rounded-md bg-gray-light'>

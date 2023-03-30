@@ -22,7 +22,7 @@ const Blog = (props) => {
             <h2 className='text-2xl font-bold my-4'>{blog_title}</h2>
             <p className='text-gray mb-5'>#beginners #programming</p>
 
-            <button className='text-purple underline font-semibold'>Mark as read</button>
+            <button onClick={() => props.handleReadTime(read_time)} className='text-purple underline font-semibold'>Mark as read</button>
 
             <hr className='my-10 text-gray' />
         </div>
