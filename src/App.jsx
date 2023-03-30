@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import Blog from './Blog/Blog';
 import Header from './Header/Header';
 import Sidebar from './Sidebar/Sidebar';
 
@@ -15,9 +16,9 @@ const App = () => {
     <div className='max-w-[1440px] mx-auto'>
       <Header></Header>
 
-      <div className='grid grid-cols-1 md:grid-cols-4 gap-6'>
-        <div className='col-span-3'>
-
+      <div className='grid grid-cols-1 md:grid-cols-3 gap-6'>
+        <div className='col-span-2'>
+          
         </div>
         <Sidebar></Sidebar>
       </div>

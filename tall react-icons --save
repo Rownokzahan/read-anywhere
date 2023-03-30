@@ -1,0 +1,29 @@
+[33mcommit f88ea14d796c632a5323c76077be3e023ab088b2[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Rownokzahan <84782117+Rownokzahan@users.noreply.github.com>
+Date:   Fri Mar 31 00:02:47 2023 +0600
+
+    Add Sidebar component
+
+[33mcommit f1b990aa29454de55abe77764c41e84cca5bf3c1[m
+Author: Rownokzahan <84782117+Rownokzahan@users.noreply.github.com>
+Date:   Thu Mar 30 22:47:51 2023 +0600
+
+    Load data from data.json file
+
+[33mcommit 0406fdbd104ad840645e34f98487f953cd518803[m
+Author: Rownokzahan <84782117+Rownokzahan@users.noreply.github.com>
+Date:   Thu Mar 30 22:46:44 2023 +0600
+
+    Add Header component
+
+[33mcommit 3ad45bff285e4f42a4f563bdb5333f03f0ae8f1c[m
+Author: Rownokzahan <84782117+Rownokzahan@users.noreply.github.com>
+Date:   Thu Mar 30 22:08:27 2023 +0600
+
+    add data.json file
+
+[33mcommit fb3da425b0f76bdb6668a24eb072ddc1a5e7d136[m
+Author: Rownokzahan <84782117+Rownokzahan@users.noreply.github.com>
+Date:   Thu Mar 30 21:30:15 2023 +0600
+
+    Initial commit
