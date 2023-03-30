@@ -1,0 +1,57 @@
+[
+    {
+        "id": 1001,
+        "author_name": "Dan Abramov",
+        "blog_title": "React Today and Tomorrow and 90% Cleaner React",
+        "images": {
+            "blog_cover_image": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+            "author_image": "https://img.freepik.com/free-photo/mature-man-working-from-home_23-2148465290.jpg?w=1060&t=st=1680192335~exp=1680192935~hmac=d4e9866ed3b9a98cc52448d00ee56496c6fb03c8429bd717a5e7c5107069d0d7"
+        },
+        "read_time": "10 minutes",
+        "publish_date": "2018-10-25"
+    },
+    {
+        "id": 1002,
+        "author_name": "David Walsh",
+        "blog_title": "Modern PHP Without a Framework",
+        "images": {
+            "blog_cover_image": "https://images.unsplash.com/photo-1599507593362-50fa53ed1b40?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cGhwfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+            "author_image": "https://www.freepik.com/free-photo/closeup-picture-handsome-middleaged-man-working-park-happy-man-with-fashionable-scarf-holding-tablet-pc-front-him-outdoors_23477825.htm#query=male%20author&position=26&from_view=search&track=ais"
+        },
+        "read_time": "15 minutes",
+        "publish_date": "2020-07-29"
+    },
+    {
+        "id": 1003,
+        "author_name": "Flavio Copes",
+        "blog_title": "JavaScript Async/Await",
+        "images": {
+            "blog_cover_image": "https://img.freepik.com/free-vector/programmers-using-javascript-programming-language-computer-tiny-people-javascript-language-javascript-engine-js-web-development-concept_335657-2412.jpg?size=626&ext=jpg&ga=GA1.1.220986669.1676533650&semt=sph",
+            "author_image": "https://img.freepik.com/free-photo/side-view-handsome-young-male_23-2148446230.jpg?w=1060&t=st=1680192265~exp=1680192865~hmac=d99603a073129655cae9fd63dd68e28d869cb1be6c8df07611222a9be3f3f1c0"
+        },
+        "read_time": "20 minutes",
+        "publish_date": "2019-09-12"
+    },
+    {
+        "id": 1004,
+        "author_name": "Chris Coyier",
+        "blog_title": "A Complete Guide to Flexbox",
+        "images": {
+            "blog_cover_image": "https://sharkcoder.com/files/article/flex1.png",
+            "author_image": "https://img.freepik.com/free-photo/close-up-portrait-handsome-smiling-student-studying-home_171337-9882.jpg?w=360&t=st=1680192226~exp=1680192826~hmac=ea98a1643a321c838bc38dd031e96bb08b18351effc17b339e0577ec836cc463"
+        },
+        "read_time": "25 minutes",
+        "publish_date": "2018-04-09"
+    },
+    {
+        "id": 1005,
+        "author_name": "Sara Soueidan",
+        "blog_title": "The Many Faces of 'display: inline-block'",
+        "images": {
+            "blog_cover_image": "https://img.freepik.com/free-photo/programming-background-collage_23-2149901789.jpg?w=1060&t=st=1680191880~exp=1680192480~hmac=c8bb0234dee55568dc4eb1b8c6889231d57676d7b4322708b5dd9c77cfbdfd44",
+            "author_image": "https://unsplash.com/photos/agGIKYs4mYs"
+        },
+        "read_time": "15 minutes",
+        "publish_date": "2014-11-24"
+    }
+]
