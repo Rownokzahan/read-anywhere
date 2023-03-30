@@ -2,6 +2,8 @@ import React, { useEffect, useState } from 'react';
 import Blog from './Blog/Blog';
 import Header from './Header/Header';
 import Sidebar from './Sidebar/Sidebar';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const App = () => {
   const [blogs, setBlogs] = useState([]);
@@ -26,10 +28,10 @@ const App = () => {
       setBookMarks([...bookMarks, blog])
     }
     else {
-      alert("You Have Already Bookmarked This Blog");
+      toast("You Have Already Bookmarked This Blog");
     }
   }
-
+  
   return (
     <div className='max-w-[1440px] mx-auto'>
       <Header></Header>
@@ -44,11 +46,13 @@ const App = () => {
           ></Blog>)}
         </div>
 
-        <div className='sticky top-0 right-0 h-max'>
+        <div className='sticky top-0 right-0 h-max'>          
           <Sidebar
             bookMarks={bookMarks}
             readTime={readTime}
           ></Sidebar>
+
+          <ToastContainer />
         </div>
       </div>
     </div>
