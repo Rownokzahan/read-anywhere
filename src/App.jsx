@@ -4,6 +4,7 @@ import Header from './Header/Header';
 import Sidebar from './Sidebar/Sidebar';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import Blog from './Blog/Blog';
 
 const App = () => {
   const [blogs, setBlogs] = useState([]);
@@ -55,6 +56,9 @@ const App = () => {
           <ToastContainer />
         </div>
       </div>
+      
+      <Blog></Blog>
+
     </div>
   );
 };
