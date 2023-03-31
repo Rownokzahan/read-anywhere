@@ -2,7 +2,7 @@ import React from "react";
 
 const Blog = () => {
     return (
-        <div className="py-6 my-20">
+        <div className="py-6 my-12 md:my-20 text-justify">
             <h2 className="text-4xl text-purple text-center font-semibold mb-6">Q & A</h2>
             <div className="mb-6">
                 <p className="text-lg font-semibold">Props vs State?</p>
@@ -18,7 +18,7 @@ const Blog = () => {
             </div>
             <div className="mb-6">
                 <p className="text-lg font-semibold">What is the purpose of the useEffect hook other than fetching data?</p>
-                <p>The useEffect hook can be used to updating the document title or setting up event listeners ,setting up timers, cleaning up resources, or subscribing to external services.</p>
+                <p>The useEffect hook can be used to update the document title or setting up event listeners, setting up timers, cleaning up resources, or subscribing to external services.</p>
             </div>
             <div>
                 <p className="text-lg font-semibold">How does React work?</p>

@@ -34,10 +34,10 @@ const App = () => {
   }
   
   return (
-    <div className='max-w-[1440px] mx-auto'>
+    <div className='max-w-[1440px] mx-auto px-4 md:px-8'>
       <Header></Header>
 
-      <div className='grid grid-cols-1 md:grid-cols-3 gap-6 relative'>
+      <div className='grid grid-cols-1 md:grid-cols-3 md:gap-6 relative'>
         <div className='col-span-2'>
           {blogs.map(blog => <SingleBlog
             blog={blog}
