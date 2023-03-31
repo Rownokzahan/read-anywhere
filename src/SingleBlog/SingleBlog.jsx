@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaRegBookmark } from 'react-icons/fa';
-const Blog = (props) => {
+const SingleBlog = (props) => {
     const { id, images, author_name, blog_title, read_time, publish_date } = props.blog;
     return (
         <div>
@@ -28,4 +28,4 @@ const Blog = (props) => {
     );
 };
 
-export default Blog;
+export default SingleBlog;

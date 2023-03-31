@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import Blog from './Blog/Blog';
+import SingleBlog from './SingleBlog/SingleBlog';
 import Header from './Header/Header';
 import Sidebar from './Sidebar/Sidebar';
 import { ToastContainer, toast } from 'react-toastify';
@@ -38,12 +38,12 @@ const App = () => {
 
       <div className='grid grid-cols-1 md:grid-cols-3 gap-6 relative'>
         <div className='col-span-2'>
-          {blogs.map(blog => <Blog
+          {blogs.map(blog => <SingleBlog
             blog={blog}
             handleReadTime={handleReadTime}
             handleBookMarks={handleBookMarks}
             key={blog.id}
-          ></Blog>)}
+          ></SingleBlog>)}
         </div>
 
         <div className='sticky top-0 right-0 h-max'>          
